@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [ALEKCEI GRETCKII](https://up.htmlacademy.ru/htmlcss/27/user/1206661).
-* Наставник: `Неизвестно`.
+* Наставник: [OKSANA SERGEEVA](https://htmlacademy.ru/profile/oksana)
 
 ---
 
