@@ -13,25 +13,36 @@
         <ul class="site-navigation">
           <li><a href="">Студия</a></li>
           <li><a href="">Клиенты</a></li>
-          <li><a href="nerds-catalog.html">Магазин</a></li>
+          <li><a href="">Магазин</a></li><!--Ссылку убрал-->
           <li><a href="">Контакты</a></li>
           <li><a href="">Корзина</a></li>
         </ul>
       </nav>
     </header>
     <main class="container">
+      <article><!--Это дополнительная обёртка для стилизации-->
       <h1 class="page-title">Магазин готовых шаблонов</h1>
+      <div><!--Обертка для колонки с фильтрами и сортировкой-->
       <section class="filters">
-        <h2 class="visually-hidden">Сетка отображения</h2>
-        <!--Здесь будет форма-->
+        <aside>
+        <h2 class="visually-hidden">Сетка</h2>
+        <!--Здесь будет форма "Сетка"-->
+      </aside>
       </section>
+      <section class="filters">
+        <aside>
+          <h2 class="visually hidden">Особенности</h2>
+          <!--Здесь будет форма "Особенности"-->
+        </aside>
+      </section>
+      </div>
       <section class="catalog">
         <h2 class="visually-hidden">Список шаблонов сайтов</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
-                <img src="img/product-1.jpg" width "360" height="616" alt="Sedona">
+              <a href="">
+                <img src="img/product-1.jpg" width="360" height="616" alt="Sedona">
               </a>
             </p>
           </li>
@@ -39,8 +50,8 @@
         <ul class="catalog-list">
           <li class="catalog-item">
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
-                <img src="img/product-2.jpg" width "360" height="616" alt="Pink">
+              <a href="">
+                <img src="img/product-2.jpg" width="360" height="616" alt="Pink">
               </a>
             </p>
           </li>
@@ -48,8 +59,8 @@
         <ul class="catalog-list">
           <li class="catalog-item">
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
-                <img src="img/product-2.jpg" width "360" height="616" alt="Borodinski">
+              <a href="">
+                <img src="img/product-2.jpg" width="360" height="616" alt="Borodinski">
               </a>
             </p>
           </li>
@@ -57,8 +68,8 @@
         <ul class="catalog-list">
           <li class="catalog-item">
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
-                <img src="img/product-2.jpg" width "360" height="616" alt="A+">
+              <a href="">
+                <img src="img/product-2.jpg" width="360" height="616" alt="A+">
               </a>
             </p>
           </li>
@@ -66,8 +77,8 @@
         <ul class="catalog-list">
           <li class="catalog-item">
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
-                <img src="img/product-2.jpg" width "360" height="616" alt="КвасТ">
+              <a href="">
+                <img src="img/product-2.jpg" width="360" height="616" alt="КвасТ">
               </a>
             </p>
           </li>
@@ -77,7 +88,9 @@
           <li class="pagination-item"><a href="#">2</a></li>
           <li class="pagination-item"><a href="#">3</a></li>
           <!--<li class="pagination-item"><a>Следующая</a></li> Тут будет кнопка "Следующая страница"-->
+        </ul>
       </section>
+    </article>
     </main>
     <footer>
       <ul>
