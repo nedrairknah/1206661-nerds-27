@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--charcoal-grey);
+  text-transform: none;
+
+  background-color: white;
+  background-position: top center;
+  background-repeat: no-no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: red;
+  border: none;
+}
+
+.main-navigation {
+  line-height: 1.88;
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #242424;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.main-footer {
+  color: #000000;
+  background-color: white;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-buttan {
+  color: red;
+}
+
+.write-to-us {
+  color: #000000;
+
+  background-color: #f8f3f0;
+}
