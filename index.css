@@ -30,6 +30,24 @@ a {
   border: none;
 }
 
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15
+}
+
+.button-red {
+  background-color: red;
+}
+
+.button-green {
+  background-color: green;
+}
+
+.button-yellow {
+  background-color: yellow;
+}
+
 .main-navigation {
   line-height: 1.88;
   color: #000000;
@@ -71,6 +89,15 @@ a {
   background-color: white;
 }
 
+.sphere {
+width: 79px;
+height: 79px;
+background-color: grey;
+display: flex;
+flex: 0 0 auto;
+border-radius: 50%;
+}
+
 .footer-social {
   text-align: center;
 }
@@ -80,11 +107,41 @@ a {
 }
 
 .social-buttan {
-  color: red;
+  color: white;
+  background-color: grey;
 }
 
-.write-to-us {
+.modal {
   color: #000000;
 
   background-color: #f8f3f0;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal h4 {
+  font-size: 45px;
+  line-height: 1;
+}
+
+.login-form input[type="text"]
+.login-form input[type="password"] {
+  font: inherit;
+  color: #000000;
+
+  border: solid 2px var(--silver-two);
+  background-color: #ffffff;
+}
+
+.login-form input:focus {
+  border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+  color: #663d15;
+}
+
+.visually-hidden {
+  display: none;
 }
