@@ -14,6 +14,14 @@ body {
   background-repeat: no-no-repeat;
 }
 
+.inner-page {
+  color: var(--charcoal-grey);
+
+  background-color: white;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
 a {
   text-decoration: none;
 }
@@ -48,10 +56,94 @@ a {
   background-color: yellow;
 }
 
+.button-show {
+  font: inherit;
+  color: black;
+  width: 260px;
+  height: 50px;
+  background-color: #eeeeee;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+.catalog-item a {
+  width: 71px;
+  height: 14px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+
+}
+
+.catalog-item h2 {
+  font-size: 18px;
+  line-height: 1.67;
+  color: #000000;
+}
+
+.catalog-item p {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: center;
+  color: #666666
+}
+
+.btn-copy {
+  font: inherit;
+  line-height: 1.13;
+  color: #ffffff;
+}
+
+.pagination-list {
+  list-style: none;
+}
+.pagination-item a {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: pink;
+}
+.pagination-item-current a {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
 .main-navigation {
   line-height: 1.88;
   color: #000000;
   background-color: #eeeeee;
+  text-transform: uppercase;
 }
 
 .site-navigation,
@@ -83,6 +175,34 @@ a {
   font-size: 24px;
   line-height: 1.25;
 }
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.filter ul {
+  font-size: 16px;
+  list-style: none;
+  line-height: 1.25;
+  color: grey;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+  color: black;
+}
+.filter-input:disabled + label {
+  color: rgba(40, 49, 54);
+
+  opacity: 0.3;
+}
+
+
 
 .main-footer {
   color: #000000;

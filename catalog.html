@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
+
+  <body class="inner-page">
+
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
@@ -13,7 +19,7 @@
         <ul class="site-navigation">
           <li><a href="">Студия</a></li>
           <li><a href="">Клиенты</a></li>
-          <li><a href="">Магазин</a></li><!--Ссылку убрал-->
+          <li><a href="">Магазин</a></li>
           <li><a href="">Контакты</a></li>
           <li><a href="">Корзина</a></li>
         </ul>
@@ -39,7 +45,7 @@
                 <li class="filter-option">
                   <input class="visually-hidden filter-input
                   filter-input-radio" type="radio" name="net-group"
-                id="filter-fixed" value="fixed">
+                id="filter-fixed" value="fixed" disabled>
                   <label for="filter-fixed">Фиксированная</label>
                 <li class="filter-option">
                   <input class="visually-hidden filter-input
@@ -69,7 +75,7 @@
               <label for="bin">Корзина</label>
             </ul>
           </fieldset>
-          <button type="submit" class="filter-button button">Показать</button>
+          <button class="button button-show" type="submit" class="filter-button button">Показать</button>
         </form>
       </section>
     </article>
@@ -81,7 +87,7 @@
               alt="Sedona-информационный сайт для туристов">
             <div><a href="#">Sedona</a>
               <p>Информационный сайт для туристов</p>
-              <a class="button" href="#">9 900 РУБ.</a>
+              <a class="button btn-copy" href="#">9 900 РУБ.</a>
             </div>
           </li>
           <li class="catalog-item">
