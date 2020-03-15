@@ -26,7 +26,15 @@ body {
   min-height: 285px;
 }
 
+.inner-page .main-header {
+  margin-bottom: 116px;
+
+  /*Временно*/
+  min-height: 355px;
+}
+
 .inner-page {
+  /*Временно для сетки*/
   color: #283136;
 
   background-color: #ffffff;
@@ -257,6 +265,14 @@ a {
   text-transform: uppercase;
 }
 
+.inner-page .main-navigation {
+  align-items: flex-start;/*не работает*/
+  flex-direction: row; /*не работает*/
+
+  /*Временно для сетки*/
+  min-height: 355px;
+}
+
 .main-header-logo {
   width: 160px;
   height: 60px;
@@ -264,6 +280,13 @@ a {
 
 /*Временно*/
   display: block;
+}
+
+.inner-page .main-header-logo {
+  order: 0;
+  width: 160px;
+  height: 65px;
+  padding: 49px 140px;
 }
 
 .main-navigation-wrapper {
@@ -365,7 +388,9 @@ a {
   opacity: 0.3;
 }
 
+.page-title {
 
+}
 
 .main-footer {
   margin-top: 0px;
